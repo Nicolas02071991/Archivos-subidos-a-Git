@@ -1,0 +1,118 @@
+* {
+  margin: 1px;
+  padding: -1px;
+  border: -1px solid black;
+  margin-bottom: 10px;
+}
+
+.encabezadoprincipal {
+  background-color: blue;
+}
+.titulo {
+  font-family: "Monoton", cursive;
+  font-size: 50px;
+  text-align: center;
+  color: black;
+}
+.tituloH2 {
+  font-family: "IM Fell English SC", serif;
+}
+.tituloH3 {
+  font-family: "IM Fell English SC", serif;
+}
+.navegador {
+  background-color: green;
+  position: sticky;
+  height: 50px;
+  display: flex;
+  margin-left: auto;
+}
+.a1 {
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+}
+.a2 {
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+}
+.a3 {
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+}
+.a4 {
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+}
+.a5 {
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+}
+.a6 {
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+}
+
+.referido1 {
+  text-decoration: none;
+  margin-right: 5px;
+  color: white;
+}
+.referido2 {
+  text-decoration: none;
+  margin-right: 5px;
+  color: white;
+}
+.seccion {
+  background-color: rgb(128, 128, 128);
+  margin-bottom: 10px;
+  position: static;
+  margin-right: 300px;
+  
+}
+.imagenThenorthman {
+  background-image: url(https://www.latercera.com/resizer/-d1Stptg4DQgfKoXAux1-LHZUBY=/900x600/filters:focal(
+      518x239: 528x229
+    )/cloudfront-us-east-1.images.arcpublishing.com/copesa/FO5PLP7ISZGSPFOPRCHOVCYTLI.jpg);
+  height: 300px;
+  width: 600px;
+}
+.imagenMetinidesfoto {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwp3Vdq3S2ffVL5qyOMV64CsAQEaMTpSFXuA&usqp=CAU);
+  height: 300px;
+  width: 600px;
+}
+.seccion2 {
+  background-color: aqua;
+  border-collapse: separate;
+}
+.articulo {
+  background-color: red;
+  margin-bottom: 10px;
+}
+.imagenprincipal {
+  background-image: url(https://www.udep.edu.pe/hoy/wp-content/uploads/sites/49/2021/01/cursos-CC.png);
+  height: 150px;
+  width: 150px;
+}
+.formulario {
+  background-color: gold;
+  position: static;
+}
+.aside {
+  background-color: violet;
+  position: absolute;
+  height: 204%;
+  max-width: max-content;
+  margin-right: 49%;
+  right: -49%;
+  bottom: -158%;
+}
+.piedepagina {
+  background-color: goldenrod;
+}

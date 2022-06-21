@@ -1,0 +1,112 @@
+.contenedor {
+  border: 2px solid;
+  height: 600px;
+  width: 600px;
+}
+.cabeza {
+  position: relative;
+  border: 2px solid rgb(19, 203, 19) ;
+  background-color: rgb(19, 203, 19);
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 200px;
+  border-radius: 150px 150px 0 0;
+  top: 100px;
+  right: -260px;
+}
+.ojoIzq {
+  position: absolute;
+  background-color: white;
+  border: 2px solid rgb(19, 203, 19);
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  left: 15%;
+  bottom: 520px;
+}
+.ojoDer {
+  position: absolute;
+  background-color: white;
+  border: 2px solid rgb(19, 203, 19);
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  right: 76%;
+  bottom: 520px;
+}
+.antenaIzq {
+  position: relative;
+  background-color: rgb(19, 203, 19);
+  border: 2px solid rgb(19, 203, 19);
+  height: 35px;
+  width: 7px;
+  border-radius: 20px;
+  bottom: 69px;
+  left: 190px;
+}
+.antenaDer {
+  position: relative;
+  background-color: rgb(19, 203, 19);
+  border: 2px solid rgb(19, 203, 19);
+  height: 35px;
+  width: 7px;
+  border-radius: 20px;
+  bottom: 110px;
+  right: -315px;
+
+}
+.torso { 
+  position: relative;
+  background-color: rgb(19, 203, 19);
+  border: 2px solid rgb(19, 203, 19) ;
+  height: 250px;
+  width: 200px;
+  bottom: 440px;
+  right: -160px;
+  border-radius: 10px;
+
+}
+.brazoIzq{ position: absolute;
+  background-color: rgb(19, 203, 19);
+  border: 2px solid rgb(19, 203, 19) ;
+  height: 170px;
+  width: 50px;
+  bottom: 300px;
+  left: 105px;
+  border-radius: 25px;
+}
+.brazoDer{ position: absolute;
+  background-color: rgb(19, 203, 19);
+  border: 2px solid rgb(19, 203, 19) ;
+  height: 170px;
+  width: 50px;
+  bottom: 300px;
+  right: 915px;
+  border-radius: 25px;
+}
+.piernaIzq { position: absolute;
+  background-color: rgb(19, 203, 19);
+  border: 2px solid rgb(19, 203, 19);
+  height: 120px ;
+  width: 50px;
+  bottom: 120px;
+  left: 200px;
+  border-radius: 25px;
+
+
+
+}
+.piernaDer { position: absolute;
+  background-color: rgb(19, 203, 19);
+  border: 2px solid rgb(19, 203, 19);
+  height: 120px ;
+  width: 50px;
+  bottom: 120px;
+  right: 1010px;
+  border-radius: 25px;
+
+
+
+}
+
+

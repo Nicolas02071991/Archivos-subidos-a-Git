@@ -1,0 +1,288 @@
+:root {
+  --width-img: 500px;
+  --height-img: 300px;
+}
+
+.contenedorPag {
+  width: 100%;
+  
+
+  height: auto;
+  display: block;
+  background-color: darkcyan;
+  border: solid;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.imagenPrincipal {
+  margin: 10px auto;
+  border: solid;
+  border-radius: 20px;
+  display: block;
+  width: var(--width-img);
+  height: var(--height-img);
+}
+
+.tituloPrincipal {
+  text-align: center;
+  font-family: "Playfair Display SC", serif;
+  font-size: 60px;
+}
+
+.referido1 {
+  color: black;
+
+  margin: 5px;
+}
+
+.referido2 {
+  color: black;
+  margin: 5px;
+}
+
+.navegadorPrincipal {
+  background-color: gray;
+
+  width: auto;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.referido3 {
+  color: whitesmoke;
+
+  margin: 5px;
+}
+
+.referido4 {
+  color: whitesmoke;
+
+  margin: 5px;
+}
+
+.referido5 {
+  color: whitesmoke;
+
+  margin: 5px;
+}
+
+.articuloPrincipal {
+  background-color: cornflowerblue;
+}
+
+.tituloH2 {
+  text-align: center;
+  font-family: "Playfair Display SC", serif;
+  font-size: 30px;
+}
+
+.cajonAzulImg {
+  margin: 10px auto;
+  border: solid;
+  border-radius: 20px;
+  display: block;
+  width: var(--width-img);
+  height: var(--height-img);
+}
+
+.parrafoCajon {
+  margin: 10px;
+}
+
+.mapa {
+  margin: 10px auto;
+  display: block;
+}
+
+.tituloH3 {
+  text-align: center;
+  font-family: "Playfair Display SC", serif;
+  font-size: 30px;
+}
+
+.parrafoBariloche {
+  margin: 10px;
+}
+
+.imgArrayanes {
+  margin: 10px auto;
+  border: solid;
+  border-radius: 20px;
+  display: block;
+  width: var(--width-img);
+  height: var(--height-img);
+}
+
+.tituloRecomendacion {
+  margin: 10px;
+}
+
+.lista1 {
+  margin: 10px;
+}
+
+.parrafoColonia {
+  margin: 10px;
+}
+
+.imgColonia {
+  margin: 10px auto;
+  border: solid;
+  border-radius: 20px;
+  display: block;
+  width: var(--width-img);
+  height: var(--height-img);
+}
+
+.parrafoCerroCat {
+  margin: 10px;
+}
+
+.imgCerroCat {
+  margin: 10px auto;
+  border: solid;
+  border-radius: 20px;
+  display: block;
+  width: var(--width-img);
+  height: var(--height-img);
+}
+
+.parrafoCerroOtto {
+  margin: 10px;
+}
+
+.imgCerroOtto {
+  margin: 10px auto;
+  border: solid;
+  border-radius: 20px;
+  display: block;
+  width: var(--width-img);
+  height: var(--height-img);
+  bottom: 50px;
+}
+
+.formulario {
+  background-color: darkslateblue;
+}
+
+.contenedorForm {
+  margin: 10px;
+}
+
+.imgLlao {
+  width: 300px;
+  height: 300px;
+  border: solid;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.imgLlao2 {
+  width: 300px;
+  height: 300px;
+  border: solid;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.pieDePagina {
+  display: block;
+  border: solid;
+  border-radius: 10px;
+  background-color: blue;
+}
+
+.pieDePagina .box h4 {
+  background-color: darkcyan;
+  padding: 10px;
+  margin-top: 0px;
+  color: white;
+}
+
+.pieDePagina .box p {
+  color: black;
+}
+
+.pieDePagina .redSocial h4 {
+  background-color: darkcyan;
+  padding: 5px;
+
+  color: white;
+}
+
+.pieDePagina .redSocial a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.pieDePagina .box2 small {
+  text-align: center;
+  color: white;
+}
+
+.boton {
+  text-decoration: solid;
+  margin: 10px;
+}
+@media (max-width:600px) { .contenedorPag { width: 100%;
+  
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  align-content: center;
+  height: 100vh;
+
+}
+.imagenPrincipal { width: 300px;
+  height: 300px;
+
+
+}
+.cajonAzulImg { width: 300px;
+  height: 300px;
+
+}
+.imgArrayanes { width: 300px;
+  height: 300px;
+
+}
+.imgColonia { width: 300px;
+  height: 300px;
+
+}
+.imgCerroCat { width: 300px;
+  height: 300px;
+
+}
+.imgCerroOtto { width: 300px;
+  height: 300px;
+}
+.mapa { width: 300px;
+
+}
+.pieDePagina { width: 100%;
+  
+  height: auto;
+  display: block;
+
+} 
+.pieDePagina .box2 small { text-align: center;
+
+}
+.imgLlao { flex-direction: column;
+
+}
+.imgLlao2 { flex-direction: column;
+  margin-left: 90px;
+
+}
+
+}
+
+
+
+
